@@ -22,7 +22,6 @@ public class Example03 implements Runnable {
 		// Main thread 
 		public static void main(String[] args) {
 			
-			
 			Runnable r = new Example03();
 			Thread t = new Thread(r);
 			//Child Thread
